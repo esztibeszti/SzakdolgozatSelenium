@@ -1,0 +1,13 @@
+Üdvözlöm a szakdolgozat Selenium teszt részén.
+
+FONTOS: 
+
+Az én számítógépemen a következő feltételek vannak meg:
+- Eclipse IDE (4.23 verzió) - Fejlesztői felület, amely .exe formátumban lehet letölteni, majd telepíteni kell.
+- Selenium Server (Grid) (4.6.0 verzió) - Egy .jar fájl, amelyet a Build Path-nél kell hozzáadni.
+- Selenium WebDriver Language Bindings: Java (4.6.0 verzió) - Több .jar fájl, amelyeket a Build Path-nél kell hozzáadni.
+- ChromeDriver (Nekem a 107.-tel kezdődő Chrome-om van, így ezt a verziót töltöttem le) - Egy .exe fájl, amelyet meg fogok hivatkozni a kódban, így fogja tudni elérni majd a Selenium a böngészőt.
+- TestNG - Egy .jar fájl, amelyet a Build Path-nél kell hozzáadni, enélkül is lehetséges Selenium teszteket írni, de segítségével könnyebben olvasható, strukturált lesz, illetve jelentéseket is lehet készíteni vele. A .jar fájlon felül az Eclipse Marketplace oldalán is le kell tölteni a TestNG kiegészítőt.
+
+Ahhoz, hogy tömegesen fel tudja tölteni a Selenium Webdriver az issue-kat, ahhoz a számítógép asztalára le kell tölteni a "test_data.csv" nevű fájlt, és az "IssueCreateBulk.java" osztályba be kell írni a megfelelő elérést. Jó esetben csak a számítógép nevét kell átírni.
+
