@@ -71,7 +71,7 @@ public class IssueCreateBulk extends JiraCloudBasePage {
 		driverWait.until(ExpectedConditions.elementToBeClickable(projectsMenu));
 		driver.navigate().to(csvUploadURL);
 		driverWait.until(ExpectedConditions.elementToBeClickable(csvUploadButton));
-		csvUploadButton.sendKeys("C:\\Users\\Lada\\Desktop\\babie egyetemi dolgai\\test_data.csv");
+		csvUploadButton.sendKeys("C:\\Users\\Lada\\Desktop\\test_data.csv");
 		driverWait.until(ExpectedConditions.elementToBeClickable(nextButton));
 		nextButton.click();
 		driverWait.until(ExpectedConditions.elementToBeClickable(projectNameInput));
